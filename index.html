@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>job Application Foam</title>
+</head>
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <form action="">
+            <h2>Job Application <span>(Web)</span></h2>
+            <!-- Text section is start here -->
+            <div class="text-section">
+                <div class="text-section-inner">
+                    <label for="text-1">Name</label>
+                    <input id="text-1" type="text" placeholder="Enter First name">
+                </div>
+                <div class="text-section-inner">
+                    <label for="text-2">Last name</label>
+                    <input id="text-2" type="text" placeholder="Enter last  name">
+                </div>
+            </div>
+            <!-- Email and job option section start here -->
+            <div class="text-section-email">
+                <div class="text-section-inner">
+                    <label for="text-1">Name</label>
+                    <input id="text-1" type="email" placeholder="Enter email...." required>
+                </div>
+                <div class="text-section-inner">
+                    <label for="job">Job Role:</label>
+                    <select id="job" name="job" class="selection" required>
+                    <option value="">Select Job role</option>
+                    <option value="developer">Developer</option>
+                    <option value="designer">Designer</option>
+                    <option value="manager">Manager</option>
+                </select>
+                </div>
+            </div>
+            <!-- Address section start here -->
+            <div class="address-section">
+                <div class="text-section-inner">
+                    <label for="add">Address</label>
+                    <textarea name="" id="add" rows="40" cols="40">
+
+                    </textarea>
+                </div>
+            </div>
+            <!-- City and pincode section start here -->
+            <div class="text-section-city">
+                <div class="text-section-inner">
+                    <label for="text-1">City</label>
+                    <input id="text-1" type="text" >
+                </div>
+                <div class="text-section-inner">
+                    <label for="text-2">PinCode</label>
+                    <input id="text-2" type="number" required>
+                </div>
+            </div>
+            <!-- Date and Upload file section start hare -->
+            <div class="text-section-date">
+                <div class="text-section-inner">
+                    <label for="text-1">Date</label>
+                    <input id="text-1" type="date" class="input-date">
+                </div>
+                <div class="text-section-inner">
+                    <label for="text-2">Upload Your Cv</label>
+                    <input id="text-2" type="file" class="input-file">
+                </div>
+            </div>
+            <div class="submit-button">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

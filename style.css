@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding-left: 12px;
+}
+.container{
+    background-color:whitesmoke;
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.inner-container{
+    background-color:white;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    padding-top: 40px;
+}
+.text-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-section-email{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.text-section-city{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.text-section-date{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    /* padding-left: 20px; */
+    margin-bottom: 15px;
+    
+}
+span{
+    font-size: 14px;
+}
+.text-section-inner{
+    display: flex ;
+    flex-direction: column;
+    gap: 3px;
+}
+
+label{
+    font-size: 14px;
+    font-weight: bold;
+}
+input{
+    padding: 10px 15px;
+    outline: none;
+}
+.selection{
+    padding: 10px 45px;
+    outline: none;
+}
+input::placeholder{
+    font-size: 12px;
+}
+input:focus{
+    border: 1px solid red;
+    padding: 10px 15px;
+    border-radius: 2%;
+}
+textarea:focus{
+    border: 1px solid red;
+    border-radius: 2%;
+    outline: none;
+}
+textarea{
+    width: 435px;
+    height: 100px;
+}
+.address-section{
+    padding-left: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.input-date{
+    padding: 10px 40px;
+}
+.input-date:focus{
+    padding: 10px 15px;
+    border: 1px solid red;
+}
+.input-file{
+    width: 190px;
+    border: 1px solid black;
+}
+.submit-button{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+button{
+    padding: 10px 25px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid white;
+    cursor: pointer;
+}
