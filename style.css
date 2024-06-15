@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
 h2{
     font-size: 1.5rem;
     font-weight: 700;
@@ -29,6 +30,30 @@ h2{
     justify-content: space-around;
     align-items: center;
 }
+@media (max-width: 575.98px) {
+    .text-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .text-section-email{
+        display: flex;
+        flex-direction: column;
+    }
+    .text-section-city{
+        display: flex;
+        flex-direction: column;
+    }
+    .text-section-date{
+        display: flex;
+        flex-direction: column;
+    }
+    textarea{
+        max-width: 200px;
+        height: 100px;
+        background-color: aqua;
+    }
+ }
+
 .text-section-email{
     display: flex;
     justify-content: space-around;
@@ -118,4 +143,9 @@ button{
     outline: none;
     border: 1px solid white;
     cursor: pointer;
+}
+@media (max-width: 575.98px) {
+   input{
+    padding: 5px 5px;
+   }
 }
